@@ -17,6 +17,13 @@ namespace MagicDates
             int month = chosenDate.Month;
 
             int year = chosenDate.Year;
+
+            String yearString = year.ToString();
+
+            String lastTwoDigits = yearString.Substring(2); // year 1999 would give 99
+
+            int finalTwoValue = int.Parse(lastTwoDigits); // gets final two digits and puts value back into int
+
         }
     }
 }

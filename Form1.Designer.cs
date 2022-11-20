@@ -93,7 +93,7 @@
             // lbl_magic
             // 
             this.lbl_magic.AutoSize = true;
-            this.lbl_magic.Location = new System.Drawing.Point(294, 44);
+            this.lbl_magic.Location = new System.Drawing.Point(280, 90);
             this.lbl_magic.Name = "lbl_magic";
             this.lbl_magic.Size = new System.Drawing.Size(134, 15);
             this.lbl_magic.TabIndex = 6;
